@@ -22,4 +22,4 @@ const app = http.createServer((req, res) => {
 
 app.listen(DEFAULT_PORT)
 
-console.log('start server')
+console.log(`--- sample start server listen: ${DEFAULT_PORT}`)
